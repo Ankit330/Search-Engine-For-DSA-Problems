@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 def fetch_codeforces_problems():
-    url = "https://codeforces.com/api/problemset.problems?tags=implementation"
+    url = "https://codeforces.com/api/problemset.problems"
     response = requests.get(url)
     return response.json()['result']['problems']
 
@@ -51,6 +51,7 @@ vocab_idf_values = load_vocab()
 inverted_index = load_inverted_index()
 question_links = load_links()
 docs_heading = load_docs_heading()
+
 
 def get_tf_dictionary(term):
     tf_values = {}

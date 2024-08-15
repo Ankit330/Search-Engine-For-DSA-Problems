@@ -137,3 +137,86 @@ button:hover {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+@media (max-width: 580px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 0.8rem;
+  }
+
+  .logo-container img {
+    width: 80px;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .search-container button {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .platform-buttons {
+    flex-direction: column;
+  }
+
+  .platform-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .sub-heading {
+    font-size: 0.7rem;
+  }
+
+  .logo-container img {
+    width: 70px;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container input {
+    width: 80%;
+    margin-right: 0;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .search-container button {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .platform-buttons {
+    flex-direction: column;
+  }
+
+  .platform-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

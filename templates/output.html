@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +11,17 @@
 <body>
    <div class="search-result">
       {% set list_size = links|length %}
-      {% if links|length == 0 %}
-      <p class="link-text">Sorry , we could not find anything</p>
+      {% if list_size == 0 %}
+      <p class="link-text ">Sorry, we could not find anything.....</p>
       <img class="sad_emoji" src="/static/images/sad_emoji.png" alt="SORRY">
       {% else %}
       {% for index in range(list_size) %}
-      <a class="link-text" href="{{links[index]}}">{{docs_name[index]}}</a>
-      <br>
+      <div class="container">
+         <a class="link-text" href="{{ links[index] }}">{{ loop.index }}. {{ docs_name[index] }}</a>
+         <br>
+      </div>
       {% endfor %}
       {% endif %}
-
    </div>
 </body>
 

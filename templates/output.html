@@ -1,27 +1,28 @@
-{% extends 'base.html' %}
-{% block title %}
-    Code Search
-{% endblock title %}
 
-{% block css %}
-        <link rel="stylesheet" href="static/css/output.css">  
-{% endblock css %}
+<!DOCTYPE html>
+<html lang="en">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% block content %}
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/static/css/output.css">
+</head>
+
+<body>
    <div class="search-result">
       {% set list_size = links|length %}
       {% if links|length == 0 %}
-         <p class="link-text">Sorry , we could not find anything</p>
-         <img class="sad_emoji" src="/static/images/sad_emoji.png" alt="SORRY">
+      <p class="link-text">Sorry , we could not find anything</p>
+      <img class="sad_emoji" src="/static/images/sad_emoji.png" alt="SORRY">
       {% else %}
-         {% for index in range(list_size) %}
-            <a class="link-text" href="{{links[index]}}">{{docs_name[index]}}</a>
-            <br>
-         {% endfor %}
+      {% for index in range(list_size) %}
+      <a class="link-text" href="{{links[index]}}">{{docs_name[index]}}</a>
+      <br>
+      {% endfor %}
       {% endif %}
 
    </div>
-   
-    
+</body>
 
-{% endblock content %}
+</html>

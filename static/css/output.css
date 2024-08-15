@@ -17,15 +17,20 @@ body {
 
 .search-result {
   background: #f8f4e5;
-  padding: 50px 100px;
-  border: 2px solid black;
-  box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+  padding: 50px 80px;
+  border: 3px solid black;
+  box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 3px black;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 45vh;
+
+
 }
 .sad_emoji {
   display: flex;
   margin: auto;
+  size-adjust: cover;
+  size: 50px;
 }
 .link-text {
   display: block;

@@ -1,4 +1,5 @@
 import requests
+import json
 
 documents = []
 vocab = {}
@@ -28,6 +29,8 @@ def fetch_codeforces_problems():
     url = "https://codeforces.com/api/problemset.problems"
     response = requests.get(url)
     data = response.json()
+    with open("codeforces_problems.json", "w", encoding="utf-8") as f:
+        json.dump(data['result'], f, indent=4)
     problems = data['result']['problems']
     return problems
 

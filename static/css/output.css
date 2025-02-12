@@ -5,9 +5,9 @@
 }
 
 body {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg")
-    center center no-repeat;
+  background: rgb(33, 53, 85);
   background-size: cover;
+  font-family: "Fjalla One", sans-serif;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -16,14 +16,15 @@ body {
 }
 
 .search-result {
-  background: #f8f4e5;
+  background: rgb(245, 239, 231);
   padding: 50px 80px;
+  border-radius: 10px;
   border: 3px solid black;
-  box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 3px black;
-  /* overflow-y: ; */
+  box-shadow: 10px 10px 5px #D8C4B6;
   overflow-x: hidden;
   height: 55vh;
   max-width: 100%;
+  transition: background 0.3s ease-in-out;
 }
 .sad_emoji {
   display: flex;
@@ -37,56 +38,44 @@ body {
   align-items: center;
   align-content: center;
 }
+
 .link-text {
   display: block;
-  width: 100%;
-  font-size: 12pt;
-  line-height: 25pt;
+  font-size: 13pt;
+  line-height: 30pt;
   font-family: "Fjalla One";
-  margin-bottom: 20pt;
-  border: none;
-  border-bottom: 5px solid black;
-  background: #f8f4e5;
+  margin-bottom: 30pt;
+  border-bottom: 3px solid rgb(33, 53, 85);
+  background: rgb(245, 239, 231);
   min-width: 250px;
-  padding-left: 0px;
-  outline: none;
-  color: black;
-  text-decoration:none
+  color: rgb(33, 53, 85);
+  text-decoration:none;
+  transition: all 0.3s ease;
 }
 
 
 .link-text:hover {
-  border-bottom: 5px solid #ffa580;
+  border-bottom: 5px solid rgb(216, 196, 182);
+  transform: scale(1.05);
 }
 
-button {
-  display: block;
-  margin: 0 auto;
-  line-height: 28pt;
-  padding: 0 20px;
-  background: #ffa580;
-  letter-spacing: 2px;
-  transition: 0.2s all ease-in-out;
-  outline: none;
-  border: 1px solid black;
-  box-shadow: 3px 3px 1px 1px #95a4ff, 3px 3px 1px 2px black;
-}
-button:hover {
-  background: black;
-  color: white;
-  border: 1px solid black;
+.arrow-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(33, 53, 85);
 }
 
-::selection {
-  background: #ffc8ff;
+.arrow-link::after {
+  content: " \f061";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: auto;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
-  border-bottom: 5px solid #95a4ff;
-  -webkit-text-fill-color: #2a293e;
-  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
-  transition: background-color 5000s ease-in-out 0s;
+::-webkit-scrollbar {
+  display: none;
 }
-

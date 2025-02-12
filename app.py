@@ -42,7 +42,7 @@ def load_inverted_index():
 def load_docs_heading():
     docs_heading = []
     with open("Leetcode/index.txt", "r", encoding='utf-8') as f:
-        docs_heading.extend(line.strip().split(".")[1].strip() for line in f.readlines())
+        docs_heading.extend(f"Leetcode: {line.strip().split('.')[1].strip()}" for line in f.readlines())    
     docs_heading.extend(f"Codeforces: {problem['name']}" for problem in fetch_codeforces_problems())
     return docs_heading
 

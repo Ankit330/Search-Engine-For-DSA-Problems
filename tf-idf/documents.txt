@@ -2193,17 +2193,448 @@ intersection of two arrays given two integer arrays nums1 and nums2, return an a
 check if there is a valid path in a grid you are given an m x n grid. each cell of grid represents a street. the street of grid[i][j] can be: 1 which means a street connecting the left cell and the right cell. 2 which means a street connecting the upper cell and the lower cell. 3 which means a street connecting the left cell and the lower cell. 4 which means a street connecting the right cell and the lower cell. 5 which means a street connecting the left cell and the upper cell. 6 which means a street connecting the right cell and the upper cell. you will initially start at the street of the upper-left cell (0, 0). a valid path in the grid is a path that starts from the upper left cell (0, 0) and ends at the bottom-right cell (m - 1, n - 1). the path should only follow the streets. notice that you are not allowed to change any street. return true if there is a valid path in the grid or false otherwise.
 maximum count of positive integer and negative integer given an array nums sorted in non-decreasing order, return the maximum between the number of positive integers and the number of negative integers. in other words, if the number of positive integers in nums is pos and the number of negative integers is neg, then return the maximum of pos and neg. note that 0 is neither positive nor negative.
 smallest sufficient team in a project, you have a list of required skills req_skills, and a list of people. the ith person people[i] contains a list of skills that the person has. consider a sufficient team: a set of people such that for every required skill in req_skills, there is at least one person in the team who has that skill. we can represent these teams by the index of each person. for example, team = [0, 1, 3] represents the people with skills people[0], people[1], and people[3]. return any sufficient team of the smallest possible size, represented by the index of each person. you may return the answer in any order. it is guaranteed an answer exists.
+bro thinks he's him combinatorics data structures dp matrices
+skibidus and capping divide and conquer math number theory
+skibidus and slay data structures dfs and similar graphs greedy trees
+skibidus and rizz constructive algorithms greedy
+skibidus and sigma sortings
+skibidus and fanum tax (hard version) binary search greedy
+skibidus and fanum tax (easy version) binary search greedy
+skibidus and ohio strings
+skibidus and amog'u brute force constructive algorithms implementation strings
+counting is not fun (hard version) combinatorics data structures dfs and similar dsu graphs implementation trees
+counting is not fun (easy version) combinatorics data structures dfs and similar dp dsu graphs hashing implementation math trees
+triangle tree data structures dfs and similar dp greedy trees
+game with triangles binary search brute force data structures geometry greedy implementation math ternary search two pointers
+remove exactly two brute force data structures dfs and similar dp graphs greedy sortings trees
+subsequence update constructive algorithms data structures greedy sortings
+minimal coprime math number theory
+galaxy generator bitmasks combinatorics dp
+permutation factory flows geometry graph matchings graphs
+traveling salescat constructive algorithms dp geometry graphs greedy math sortings
+the game (hard version) data structures dfs and similar games graphs implementation trees
+the game (easy version) data structures dfs and similar games graphs greedy trees
+balanced tree dfs and similar dp graphs greedy trees
+cirno and operations brute force math
+clockwork greedy math
+string constructive algorithms greedy math strings
+kevin and nivek divide and conquer dp
+kevin and stones (hard version) flows graphs
+kevin and stones (easy version) flows graph matchings graphs
+kevin and teams constructive algorithms graphs interactive
+kevin and binary string (hard version) data structures dp
+kevin and binary string (easy version) greedy implementation
+kevin and and bitmasks brute force dp greedy math sortings
+kevin and numbers bitmasks data structures
+kevin and puzzle 2-sat combinatorics dp
+kevin and geometry binary search geometry
+kevin and arithmetic math
+bugged sort dp greedy sortings
+multiplicative arrays combinatorics dp number theory
+graph composition dfs and similar dsu graphs greedy
+subtract min sort greedy
+game of mathletes games greedy sortings two pointers
+farmer john's card game greedy sortings
+fibonacciness brute force
+stop gaming (hard version) brute force constructive algorithms data structures hashing strings
+stop gaming (easy version) brute force constructive algorithms greedy hashing strings
+graph and graph data structures graphs greedy shortest paths
+customer service brute force constructive algorithms graph matchings greedy math sortings
+cost of the array brute force constructive algorithms greedy math
+milya and two arrays constructive algorithms greedy sortings
+coffee break data structures greedy math
+secret message constructive algorithms dfs and similar math
+formation binary search data structures dp sortings two pointers
+another exercise on graphs (hard version) binary search dfs and similar dp dsu graphs shortest paths sortings
+another exercise on graphs (easy version) binary search brute force dp dsu graphs shortest paths sortings
+gifts order data structures greedy implementation math matrices
+trip to the olympiad bitmasks constructive algorithms greedy math
+gorilla and the exam greedy sortings
+mex table constructive algorithms math
+xor of median (hard version) bitmasks brute force combinatorics dp math
+xor of median (easy version) bitmasks brute force combinatorics dp math
+nested segments combinatorics dfs and similar dp dsu math
+unique median binary search brute force combinatorics data structures divide and conquer dp
+palindromic subsequences brute force constructive algorithms math
+find the permutation brute force dfs and similar graphs implementation sortings
+shape perimeter constructive algorithms math
+cosmic divide brute force geometry hashing math strings
+haystacks brute force constructive algorithms data structures greedy sortings
+scarecrow greedy implementation math
+the trail brute force constructive algorithms greedy math two pointers
+crafting constructive algorithms greedy sortings
+two frogs constructive algorithms games greedy math
+affectionate arrays (hard version) data structures dp graphs greedy math shortest paths two pointers
+affectionate arrays (easy version) data structures dp greedy
+delicate anti-monotonous operations constructive algorithms implementation
+naive string splits binary search brute force greedy hashing math number theory strings
+earnest matrix complement brute force data structures dp greedy implementation math
+resourceful caterpillar sequence dfs and similar dp games graphs greedy trees
+refined product optimality binary search data structures greedy math schedules sortings
+bewitching stargazer bitmasks divide and conquer dp math
+outstanding impressionist binary search brute force data structures greedy
+tender carpenter dp geometry greedy math
+managing cluster dp graphs math trees
+legacy screensaver
+knowns and unknowns
+judicious watching binary search greedy sortings
+incompetent delivery guy graphs shortest paths
+hunting hoglins in hogwarts interactive
+geometric balance data structures geometry implementation
+fix flooded floor constructive algorithms dp graphs
+expression correction brute force expression parsing strings
+dag serialization brute force graphs
+cactus without bridges constructive algorithms math
+bitbitjump
+adrenaline rush constructive algorithms
+snakes bitmasks dp dsu graphs
+joker brute force greedy implementation math
+best price binary search brute force data structures greedy sortings
+counting pairs binary search sortings two pointers
+preparing for the exam constructive algorithms implementation
+journey binary search math
+preparing for the olympiad greedy
+tree destruction dfs and similar dp trees
+maximum modulo equality data structures divide and conquer math number theory
+three strings dp implementation strings
+digital string maximization brute force greedy math strings
+uninteresting number brute force dp math
+transfusion brute force greedy math
+line breaks implementation
+mex or mania bitmasks brute force data structures dsu implementation
+broken queries binary search bitmasks brute force constructive algorithms implementation interactive
+shift + esc brute force dp
+mex cycle brute force constructive algorithms greedy implementation
+pspspsps brute force constructive algorithms graph matchings implementation
+mex destruction greedy implementation
+kevin and puzzle (hard version) bitmasks fft math
+kevin and puzzle (easy version) constructive algorithms
+kevin and strange operation data structures dp
+kevin and matrices brute force combinatorics dp math
+kevin and math class brute force data structures divide and conquer dp implementation math trees
+kevin and bipartite graph constructive algorithms graphs greedy
+kevin and competition memories binary search brute force data structures greedy sortings two pointers
+kevin and binary strings bitmasks brute force greedy implementation strings
+kevin and permutation constructive algorithms greedy
+kevin and combination lock brute force greedy implementation math number theory
+replace character brute force combinatorics greedy strings
+alyona and a square jigsaw puzzle implementation math
+yandex cuneiform (hard version) constructive algorithms data structures greedy implementation
+yandex cuneiform (easy version) constructive algorithms data structures greedy
+cheops and a contest (hard version) greedy implementation
+cheops and a contest (easy version) constructive algorithms greedy
+for the emperor! flows graphs
+adventurers binary search data structures greedy sortings ternary search two pointers
+move back at a cost binary search data structures greedy sortings
+swap columns and find a path greedy sortings
+mirror maze brute force dfs and similar graphs implementation
+buggy dfs constructive algorithms
+gcddcg
+xorderable array bitmasks data structures
+microwavable subsequence data structures
+missing separators dp sortings string suffix structures strings
+x aura graphs math shortest paths
+grid game 3-angle games math
+narrower passageway combinatorics data structures
+aquatic dragon
+saraga greedy strings
+icpc square math number theory
+scrambled scrabble brute force greedy
+hard demon problem constructive algorithms data structures dp implementation math
+medium demon problem (hard version) dfs and similar dp dsu graphs implementation trees
+medium demon problem (easy version) dfs and similar graph matchings graphs implementation trees
+easy demon problem binary search brute force data structures math number theory
+insane problem binary search greedy implementation math number theory
+harder problem constructive algorithms greedy math
+hard problem greedy math
+normal problem implementation strings
+easy problem brute force math
+problem with queries brute force data structures implementation
+nim bitmasks brute force combinatorics dp games greedy implementation shortest paths
+matrix transformation bitmasks brute force data structures dfs and similar graphs greedy implementation
+problem about gcd brute force flows math number theory
+sums on segments binary search brute force data structures dp greedy math
+digits math number theory
+coin transformation brute force math
+two subarrays data structures dp implementation matrices
+vertex pairs binary search brute force data structures dfs and similar divide and conquer greedy implementation trees
+recommendations data structures implementation sortings two pointers
+competitive fishing greedy
+game with colored marbles games greedy
+greedy monocarp greedy sortings
+railway construction
+selection sort binary search data structures greedy two pointers
+building castle
+trophic balance species binary search brute force dfs and similar graphs
+bottle arrangement data structures divide and conquer dp dsu greedy
+auto complete binary search data structures hashing implementation sortings strings trees
+sheet music combinatorics dp math
+grid game
+segmentation folds brute force dfs and similar number theory
+beautiful array constructive algorithms math
+drunken maze brute force dfs and similar graphs shortest paths
+cube bitmasks dfs and similar dp
+bowling frame binary search brute force math
+the bento box adventure implementation sortings
+number of cubes combinatorics dp math number theory
+control of randomness combinatorics dfs and similar dp graphs greedy math probabilities trees
+non prime tree brute force constructive algorithms dfs and similar greedy number theory trees two pointers
+ordered permutations bitmasks combinatorics constructive algorithms greedy math two pointers
+paint a strip constructive algorithms greedy math
+game of division games math
+cool swap walk (hard version) constructive algorithms constructive algorithms constructive algorithms implementation sortings
+cool swap walk (easy version) constructive algorithms implementation sortings
+shohag loves pebae math number theory
+shohag loves counting (hard version) dp number theory
+shohag loves counting (easy version) combinatorics dp math number theory
+shohag loves inversions combinatorics dp implementation math
+shohag loves gcd constructive algorithms greedy math number theory
+shohag loves xor (hard version) bitmasks brute force math number theory
+shohag loves xor (easy version) bitmasks brute force math number theory
+shohag loves strings constructive algorithms greedy implementation strings
+shohag loves mod constructive algorithms number theory
+fixing the expression implementation
+royal flush dp implementation
+bridge renovation brute force dp greedy math two pointers
+grid walk brute force dp greedy math number theory
+waiting for... greedy implementation
+polyathlon binary search data structures hashing string suffix structures strings
+galactic council flows
+guess one character constructive algorithms implementation interactive
+alternative platforms combinatorics data structures fft math sortings
+barrels data structures greedy math
+divide or conquer binary search bitmasks data structures dp implementation
+diy data structures geometry greedy sortings
+make it equal binary search brute force greedy math
+bonus project games greedy
+natlan exploring bitmasks combinatorics data structures dp math number theory
+ardent flames binary search data structures math sortings two pointers
+kachina's favorite binary string dp greedy interactive two pointers
+sharky surfing data structures greedy two pointers
+superultra's favorite permutation constructive algorithms greedy math number theory
+intercepted inputs brute force implementation
+twice implementation
+library of magic binary search constructive algorithms divide and conquer interactive math number theory
+xorificator 3000 bitmasks dp number theory two pointers
+reverse the rivers binary search constructive algorithms data structures greedy
+i love 1543 brute force implementation matrices
+anya and 1100 brute force implementation
+startup greedy sortings
+quintomania implementation
+peak productivity forces constructive algorithms
+go learn! (hard version) divide and conquer dp
+go learn! (easy version) dp trees
+tree operations binary search brute force dfs and similar dp trees
+monster binary search brute force constructive algorithms greedy implementation math ternary search
+yet another real number problem binary search data structures divide and conquer greedy implementation math
+alya and permutation bitmasks constructive algorithms math
+everyone loves tres constructive algorithms greedy math number theory
+sliding implementation math
+rayan vs. rayaneh brute force dfs and similar dp number theory
+simurgh's watch (hard version) greedy implementation
+simurgh's watch (easy version) constructive algorithms greedy implementation sortings
+khayyam's royal decree (hard version) combinatorics dp math sortings
+khayyam's royal decree (easy version) combinatorics dp math sortings
+permutations harmony combinatorics constructive algorithms greedy hashing math
+darius' wisdom constructive algorithms greedy implementation sortings
+trapped in the witch's labyrinth constructive algorithms dfs and similar graphs implementation
+rakhsh's revival data structures greedy implementation two pointers
+king keykhosrow's mystery brute force chinese remainder theorem math number theory
+sakurako and chefir data structures dfs and similar dp greedy trees
+kosuke's sloth brute force math number theory
+sakurako, kosuke, and the permutation brute force data structures dfs and similar dsu graphs greedy math
+kousuke's assignment data structures dp dsu greedy math
+sakurako's field trip dp greedy two pointers
+sakurako and water brute force constructive algorithms greedy
+sakurako and kosuke constructive algorithms implementation math
+peanuts combinatorics dp games math
+balanced constructive algorithms data structures greedy implementation math
+genokraken constructive algorithms data structures graphs greedy implementation interactive trees two pointers
+trinity binary search math sortings two pointers
+medians constructive algorithms greedy implementation math
+circuit greedy implementation math number theory
+penchick and even medians binary search constructive algorithms interactive probabilities
+penchick and chloe's trees data structures dfs and similar dp greedy implementation math sortings trees
+penchick and desert rabbit binary search data structures dfs and similar dp dsu greedy implementation two pointers
+penchick and bbq buns constructive algorithms math number theory
+penchick and satay sticks brute force greedy sortings
+penchick and modern monument constructive algorithms dp greedy math
+the destruction of the universe (hard version) combinatorics math
+the destruction of the universe (easy version) combinatorics greedy math
+orangutan approved subarrays binary search data structures dp greedy implementation two pointers
+meximize the score combinatorics data structures dp greedy implementation math
+qed's favorite permutation data structures implementation sortings
+a true battle brute force games greedy
+minimise oneness combinatorics constructive algorithms games math
+a gift from orangutan constructive algorithms greedy math sortings
+variance challenge flows graphs greedy
+message spread bitmasks brute force combinatorics dp
+balanced problem data structures dp
+palindrome everywhere constructive algorithms graphs greedy
+common generator brute force constructive algorithms math number theory
+cool graph constructive algorithms data structures dfs and similar dsu graphs greedy trees
+new rating binary search data structures dp greedy
+replacement constructive algorithms games strings
+set greedy math
+alice's adventures in addition bitmasks brute force dp implementation
+alice's adventures in the rabbit hole combinatorics dfs and similar dp games greedy math probabilities trees
+alice's adventures in cards constructive algorithms data structures dp graphs greedy implementation ternary search
+alice's adventures in cutting cake binary search dp greedy two pointers
+alice's adventures in permuting binary search implementation math
+alice's adventures in ''chess'' brute force implementation math
+bit game (hard version) bitmasks dp math
+bit game (easy version) bitmasks brute force games math
+the endspeaker (hard version) binary search data structures dp greedy implementation two pointers
+the endspeaker (easy version) binary search dp graphs greedy implementation two pointers
+add zeros brute force data structures dfs and similar dp graphs greedy
+stalin sort brute force greedy
+rectangle arrangement geometry implementation math
+bermart ice cream data structures dfs and similar divide and conquer dp implementation trees
+best subsequence bitmasks dfs and similar flows graph matchings graphs
+sums of segments binary search data structures dp implementation math
+action figures binary search brute force constructive algorithms data structures greedy implementation
+black cells binary search brute force constructive algorithms greedy
+perpendicular segments constructive algorithms geometry greedy math
+variable damage data structures flows
+choose your queries constructive algorithms dfs and similar dp graphs greedy trees
+card game combinatorics dp fft greedy math
+attribute checks brute force data structures dp implementation math two pointers
+new game binary search brute force greedy implementation sortings two pointers
+binomial coefficients, kind of combinatorics dp math
+two screens binary search greedy strings two pointers
+buying lemonade binary search constructive algorithms sortings
+profitable interest rate greedy math
+hills and pits data structures greedy math matrices
+tree of life dp greedy trees
+many games brute force dp greedy math probabilities
+c+k+s constructive algorithms dfs and similar graphs greedy hashing implementation strings
+skipping binary search dp graphs shortest paths
+concatenation of arrays constructive algorithms greedy math sortings
+billetes mx (hard version) binary search combinatorics data structures dsu graphs
+billetes mx (easy version) 2-sat binary search combinatorics constructive algorithms dfs and similar dsu graphs
+asesino (hard version) constructive algorithms dp interactive
+asesino (easy version) binary search brute force constructive algorithms implementation interactive
+gerrymandering dp implementation
+kar salesman binary search greedy math
+bus to pénjamo constructive algorithms greedy implementation math
+digital village (extreme version) data structures dfs and similar dp dsu graphs greedy math trees
+digital village (hard version) data structures dp dsu graphs math trees
+digital village (easy version) brute force data structures dfs and similar dp dsu fft graphs greedy implementation math trees
+boss, thirsty dp greedy implementation
+adjust the presentation (hard version) constructive algorithms data structures greedy implementation sortings
+adjust the presentation (easy version) constructive algorithms greedy
+maximize mex brute force greedy math number theory
+meaning mean data structures greedy math sortings
+count leaves dp math number theory
+expected power bitmasks dp math probabilities
+connect the dots brute force dp dsu graphs math trees
+bitwise balancing bitmasks hashing implementation math schedules ternary search
+brightness begins binary search math
+find minimum operations bitmasks brute force greedy math number theory
+all pairs segments implementation math
+max plus size brute force dp greedy
+speedbreaker counting (hard version) dp greedy math
+speedbreaker counting (medium version) dp greedy math
+speedbreaker counting (easy version) combinatorics dp greedy math
+complex segments (hard version) binary search data structures divide and conquer dsu greedy math sortings
+complex segments (easy version) binary search data structures divide and conquer dsu greedy math sortings
+max plus min plus size data structures dp dsu greedy implementation matrices sortings
+tree pruning brute force dfs and similar greedy sortings trees
+speedbreaker binary search data structures dp greedy implementation two pointers
+cards partition 2-sat brute force greedy implementation math
+robin hood archery data structures divide and conquer greedy hashing
+milky days brute force data structures greedy implementation
+sheriff's defense dfs and similar dp greedy trees
+rendez-vous de marian et robin dfs and similar graphs shortest paths
+robert hood and mrs hood brute force data structures greedy sortings
+robin hood in town binary search greedy math
+robin hood and the major oak math
+robin helps greedy implementation
+game in tree (hard version) binary search data structures trees
+game in tree (easy version) binary search brute force data structures dp games greedy implementation trees
+prefix gcd brute force dp greedy math number theory
+minimize the difference binary search greedy
+password cracking constructive algorithms interactive strings
+battle for survive constructive algorithms greedy math
+zhan's blender constructive algorithms math
+stack and queue *special data structures divide and conquer
+strange matrix *special graphs greedy
+removal of a permutation *special
+good subarray *special data structures greedy
+rock-paper-scissors bot *special greedy strings
+among wolves *special
+split the expression *special
+shuffle *special
+problem solving *special
+message transmission error (hard version) hashing string suffix structures strings two pointers
+message transmission error (easy version) brute force strings
+three brothers brute force implementation math
+alternating sum of numbers brute force implementation math
+yunli's subarray queries (extreme version) data structures dp implementation
+yunli's subarray queries (hard version) binary search data structures dp
+yunli's subarray queries (easy version) binary search data structures two pointers
+firefly's queries bitmasks data structures flows math
+klee's super duper large array!!! binary search math ternary search
+satyam and counting geometry math
+the legend of freya the frog implementation math
+osu!mania brute force implementation
+minimize! brute force math
+sakurako's test binary search brute force greedy math number theory
+sakurako's task binary search greedy math number theory
+sakurako's box combinatorics math number theory
+alternating string brute force data structures dp greedy implementation strings
+sakurako's hobby dp dsu graphs math
+longest good array binary search brute force math
+square or not brute force math strings
+sakurako's exam brute force constructive algorithms greedy math
+dora and c++ math number theory
+index and maximum value data structures greedy
+dora's set greedy math number theory
+dora's paint brute force combinatorics constructive algorithms graphs implementation
+iris's full binary tree brute force data structures dfs and similar trees
+iris and adjacent products data structures greedy implementation math
+eri and expanded sets data structures divide and conquer math number theory two pointers
+iris and the tree brute force data structures dfs and similar dsu math trees
+iris and game on the tree constructive algorithms dfs and similar games graphs greedy trees
+subtangle game (hard version) data structures dp games greedy implementation
+subtangle game (easy version) dp games greedy implementation
+alter the gcd binary search brute force data structures divide and conquer implementation number theory
+lazy narek dp implementation strings
+the strict teacher (hard version) binary search greedy math sortings
+the strict teacher (easy version) greedy math sortings
+simple palindrome combinatorics constructive algorithms greedy math
+substring compression data structures dp matrices
+make a palindrome binary search brute force data structures greedy math
+not a nim problem brute force games math number theory
+colored portals binary search brute force data structures graphs greedy implementation shortest paths
+splitting items games greedy sortings
+game with doors brute force greedy
+closest point implementation math
+turtle and three sequences brute force data structures dp greedy math probabilities two pointers
+turtle and inversions (hard version) brute force data structures divide and conquer dp greedy math two pointers
+turtle and inversions (easy version) brute force divide and conquer dp greedy math
+turtle and a mex problem (hard version) dfs and similar dp graphs greedy implementation math
+turtle and a mex problem (easy version) greedy math
+turtle and good pairs constructive algorithms greedy sortings strings
+turtle and piggy are playing a game 2 games greedy sortings
+turtle and good strings greedy strings
 counting 101 greedy
 lattice optimizing bitmasks brute force hashing meet-in-the-middle
 court blue (hard version) brute force dp math number theory
 court blue (easy version) brute force dfs and similar dp math number theory
-cosmic rays brute force data structures dp implementation
+cosmic rays brute force data structures dp
 dfs checker (hard version) binary search data structures dfs and similar graphs hashing trees
 dfs checker (easy version) brute force data structures dfs and similar graphs hashing trees
 black circles brute force geometry greedy math
 removals game constructive algorithms games
 distanced coloring constructive algorithms implementation math
-ksyusha and the loaded set binary search data structures
+deterministic heap (hard version) combinatorics dp trees
+deterministic heap (easy version) combinatorics dp math trees
+longest max min subsequence brute force constructive algorithms data structures greedy implementation
+guess the tree binary search brute force dfs and similar divide and conquer dsu greedy interactive trees
+generate permutation constructive algorithms
+make all equal greedy implementation
+ksyusha and the loaded set binary search brute force data structures implementation
 call during the journey binary search brute force graphs greedy shortest paths
 color rows and columns dp greedy implementation math
 photoshoot for gorillas combinatorics data structures greedy math
@@ -2503,16 +2934,16 @@ long multiplication greedy math number theory
 make it ugly implementation math
 painting the ribbon constructive algorithms greedy math
 accuracy-preserving summation algorithm *special
-help, what does it mean to be "based" brute force constructive algorithms expression parsing implementation sortings
+help, what does it mean to be "based" *special brute force constructive algorithms expression parsing implementation sortings
 dark matter bitmasks geometry
-palindrome implementation strings
-mathematician takeover binary search dfs and similar math
-grid brute force
-sweep line combinatorics games math
-are you a procrastinator? implementation
-they have fooled brute force schedules
-is it stated? strings
-are you a robot, again? strings
+palindrome *special implementation strings
+mathematician takeover *special binary search dfs and similar math
+grid *special brute force
+sweep line *special combinatorics games math
+are you a procrastinator? *special implementation
+they have fooled *special brute force schedules
+is it stated? *special strings
+are you a robot, again? *special strings
 growing trees binary search constructive algorithms flows graphs greedy
 thanos snap binary search dp games greedy trees
 clacking balls combinatorics math probabilities
@@ -5845,24 +6276,24 @@ the best vacation binary search brute force greedy implementation two pointers
 celex update math
 maria breaks the self-isolation greedy sortings
 park lighting greedy math
-root of quantum fourier transform
-power of quantum fourier transform
-quantum classification - dataset 7
-quantum classification - dataset 6
-quantum classification - dataset 5
-quantum classification - dataset 4
-quantum classification - dataset 3
-prepare superposition of basis states with the same parity
-prepare superposition of basis states with 0s
-"is the number divisible by 3?" oracle
-"is the bit string balanced?" oracle
-distinguish y, xz, -y and -xz
-distinguish four pauli gates
-distinguish rz(θ) from ry(θ)
-distinguish rz from r1
-distinguish h from x
-distinguish i, cnots and swap
-figure out direction of cnot
+root of quantum fourier transform *special
+power of quantum fourier transform *special
+quantum classification - dataset 7 *special
+quantum classification - dataset 6 *special
+quantum classification - dataset 5 *special
+quantum classification - dataset 4 *special
+quantum classification - dataset 3 *special
+prepare superposition of basis states with the same parity *special
+prepare superposition of basis states with 0s *special
+"is the number divisible by 3?" oracle *special
+"is the bit string balanced?" oracle *special
+distinguish y, xz, -y and -xz *special
+distinguish four pauli gates *special
+distinguish rz(θ) from ry(θ) *special
+distinguish rz from r1 *special
+distinguish h from x *special
+distinguish i, cnots and swap *special
+figure out direction of cnot *special
 quantum classification - 2 *special
 quantum classification - 1 *special
 prepare state |01⟩ + |10⟩ + |11⟩ *special
@@ -7057,19 +7488,19 @@ magic gems dp math matrices
 magic ship binary search
 emotes greedy math sortings
 best subsegment implementation math
-hessenberg matrix
-creeper
-tie fighter
-x-wing fighter
-pattern of increasing blocks
-block diagonal matrix
-``is the number of ones divisible by 3?'' oracle
-``is the bit string periodic?'' oracle
-alternating bits oracle
-not a, not b or not c?
-distinguish three-qubit states
-generate equal superposition of four basis states
-generate state |00⟩ + |01⟩ + |10⟩
+hessenberg matrix *special
+creeper *special
+tie fighter *special
+x-wing fighter *special
+pattern of increasing blocks *special
+block diagonal matrix *special
+``is the number of ones divisible by 3?'' oracle *special
+``is the bit string periodic?'' oracle *special
+alternating bits oracle *special
+not a, not b or not c? *special
+distinguish three-qubit states *special
+generate equal superposition of four basis states *special
+generate state |00⟩ + |01⟩ + |10⟩ *special
 block unitary *special
 chessboard unitary *special
 anti-diagonal unitary *special
@@ -7622,21 +8053,21 @@ coins and queries greedy
 intense heat brute force implementation math
 binary string constructing constructive algorithms
 polycarp's pockets implementation
-another array reconstruction algorithm
-bernstein-vazirani algorithm
-oracle for majority function
-oracle for f(x) = b * x + (1 - b) * (1 - x) mod 2
-oracle for f(x) = b * x mod 2
-distinguish zero state and plus state without errors
-distinguish zero state and plus state with minimum error
-distinguish four 2-qubit states - 2
-distinguish four 2-qubit states
-distinguish ghz state and w state
-distinguish zero state and w state
-generate w state
-generate superposition of two basis states
-generate superposition of zero state and a basis state
-generate superposition of all basis states
+another array reconstruction algorithm *special
+bernstein-vazirani algorithm *special
+oracle for majority function *special
+oracle for f(x) = b * x + (1 - b) * (1 - x) mod 2 *special
+oracle for f(x) = b * x mod 2 *special
+distinguish zero state and plus state without errors *special
+distinguish zero state and plus state with minimum error *special
+distinguish four 2-qubit states - 2 *special
+distinguish four 2-qubit states *special
+distinguish ghz state and w state *special
+distinguish zero state and w state *special
+generate w state *special
+generate superposition of two basis states *special
+generate superposition of zero state and a basis state *special
+generate superposition of all basis states *special
 deutsch-jozsa algorithm *special
 oracle for f(x) = parity of the number of 1s in x *special
 oracle for f(x) = k-th element of x *special
@@ -7862,7 +8293,7 @@ puzzling language constructive algorithms
 cheese board
 i'm feeling lucky! probabilities
 ravioli sort implementation
-a map of the cat brute force interactive
+a map of the cat *special brute force interactive
 quirky quantifiers math
 intercepted message greedy implementation
 left-handers, right-handers and ambidexters implementation math
@@ -10127,7 +10558,7 @@ giving awards dfs and similar
 pattern implementation strings
 network configuration greedy sortings
 poster greedy implementation
-kicker implementation
+kicker *special implementation
 multi-core processor implementation
 password check *special implementation
 feed the golorp *special
